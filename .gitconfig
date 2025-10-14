@@ -1,0 +1,8 @@
+[user]
+	name = 6gsg5vzn2f-code
+	email = helices-barges-8b@icloud.com
+[core]
+	pager = diff-so-fancy | less --tabs=4 -RF
+	editor = vim
+[interactive]
+	diffFilter = diff-so-fancy --patch

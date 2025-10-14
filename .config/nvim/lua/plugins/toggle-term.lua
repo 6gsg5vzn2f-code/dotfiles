@@ -1,8 +1,8 @@
 -- https://github.com/akinsho/toggleterm.nvim
--- <C-\> to open terminal. 
-{
+-- <C-\> to open terminal
+return {
   -- amongst your other plugins
-  {'akinsho/toggleterm.nvim', version = "*", config = true}
+  { "akinsho/toggleterm.nvim", version = "*", config = true },
   -- -- or
   -- {'akinsho/toggleterm.nvim', version = "*", opts = {--[[ things you want to change go here]]}}
 }

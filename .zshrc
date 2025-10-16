@@ -76,10 +76,6 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-# uv 换源 
-export UV_DEFAULT_INDEX="https://mirrors.aliyun.com/pypi/simple"
-# uv end
-
 # fnm：node版本管理工具
 eval "$(fnm env --use-on-cd --shell zsh)"
 # fnm end

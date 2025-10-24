@@ -5,6 +5,7 @@ return {
     opts = vim.tbl_deep_extend("force", opts, {
       options = {
         show_buffer_close_icons = false,
+	always_show_bufferline = true,
       },
     })
     return opts
